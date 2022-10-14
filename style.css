@@ -45,6 +45,8 @@ section{
 
 .imagem{
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 section > p{
@@ -54,22 +56,16 @@ section > p{
     padding: 5px;
 }
 
-section.normal > p{
-    display: inline-block;
-}
-
 #img1{
     background-image: url(imagens/img1.jpg);
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
 }
 
 #img2{
     background-image: url(imagens/img2.jpg);
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
     padding: 40vh 0px 40vh 0px;
 }
 
