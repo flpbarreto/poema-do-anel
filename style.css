@@ -55,6 +55,7 @@ section > p{
     background-color: rgba(0, 0, 0, 0.516);
     display: inline-block;
     padding: 5px;
+    line-height: 100px;
 }
 
 #img1{
@@ -73,12 +74,12 @@ section > p{
 footer{
     background-color: black;
     padding: 6px;
+    font-size: 10px;
 }
 
 footer > p{
     text-align: center;
-    margin: auto;
-    
+    margin: auto;    
 }
 
 footer  a{
