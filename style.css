@@ -52,6 +52,7 @@ section{
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: contain;
 }
 
 section > p{
@@ -65,13 +66,11 @@ section > p{
 
 #img1{
     background-image: url(imagens/img1.jpg);
-    background-size: cover;
     background-position: center center;
 }
 
 #img2{
     background-image: url(imagens/img2.jpg);
-    background-size: cover;
     background-position: center center;
     padding: 40vh 0px 40vh 0px;
 }
